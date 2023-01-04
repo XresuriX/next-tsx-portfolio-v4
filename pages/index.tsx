@@ -1,4 +1,5 @@
-import { GetServerSidePropsContext } from "next";
+///import { GetServerSidePropsContext } from "next";
+import { GetStaticPropsContext } from "next";
 import { FC } from "react";
 import { services } from "../data";
 
@@ -7,9 +8,21 @@ const IndexPage: FC = (props) => {
   return <div className="text-6xl font-bold underline text-lime-400"></div>;
 };
 
-export default IndexPage;
+///export default IndexPage;
+///
+///export const getServerSideProps = async (context:GetServerSidePropsContext)=>{
+///
+///  const res = await fetch('http://localhost:3000/api/services')
+///  const data = await res.json()
+///
+ /// return {
+///    props: {
+///      services: data.services
+///}
+///  }
+///}
 
-export const getServerSideProps = async (context:GetServerSidePropsContext)=>{
+export const getStaticProps = async (context:GetStaticPropsContext)=>{
 
   const res = await fetch('http://localhost:3000/api/services')
   const data = await res.json()
@@ -19,4 +32,4 @@ export const getServerSideProps = async (context:GetServerSidePropsContext)=>{
       services: data.services
     }
   }
-}
+} 
