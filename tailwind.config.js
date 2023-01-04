@@ -6,7 +6,10 @@ module.exports = {
     './styles/**/*.css'
   ],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }
+ 
