@@ -8,7 +8,8 @@ const IndexPage: FC = (props) => {
   return <div className="text-6xl font-bold underline text-lime-400"></div>;
 };
 
-///export default IndexPage;
+export default IndexPage;
+///
 ///
 ///export const getServerSideProps = async (context:GetServerSidePropsContext)=>{
 ///
