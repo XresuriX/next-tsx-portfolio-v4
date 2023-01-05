@@ -2,11 +2,12 @@ import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
 import { GiTie } from 'react-icons/gi'
 import { GoLocation } from 'react-icons/go'
 import { AiFillTwitterSquare } from 'react-icons/ai'
+import Image from 'next/image'
 
 const Sidebar = () => {
   return (
     <>
-      <img
+      <Image
         className="w-32 h-32 mx-auto border rounded-full "
         src="https://media.licdn.com/dms/image/D5635AQE7A5FQx5ix7w/profile-framedphoto-shrink_100_100/0/1650390889345?e=1672948800&v=beta&t=1AnznRrnIhb6h1hKwuVjRgFekYnlURwseUAOKW8hyCc"
         alt="leslie"
