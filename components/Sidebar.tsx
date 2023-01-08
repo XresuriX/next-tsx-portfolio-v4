@@ -13,7 +13,7 @@ const Sidebar = () => {
   };
   
   return (
-    <div>
+    <>
       <Image
         className="w-32 h-32 mx-auto border rounded-full "
         src="/images/propic.jpg"

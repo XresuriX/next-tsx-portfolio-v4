@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: #1ac1dd;
+  background-color: blue_1;
   font-family: "Times New Roman", Times, serif;
-  background-image: "[url('../assets/JaMap.jpg')]";
+  background-image: "[url('public/images/JaMap.jpg')]";
+  color: #354358;
 }

@@ -1,9 +1,10 @@
 import { RiComputerLine } from 'react-icons/ri'
 import { IconType } from 'react-icons'
-import { IService } from './type'
+import { IService, ISkill, IProject } from './type'
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
+import { BsCircleFill } from 'react-icons/bs'
 
 export const services:IService[] =[
     {
@@ -42,3 +43,88 @@ export const services:IService[] =[
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
       },
     ];
+
+    export const languages:ISkill[] =[
+      {
+          Icon: BsCircleFill,
+          name: "Python",
+          level:
+            "80%",
+        },
+        {
+          Icon:BsCircleFill,
+          name: "JavaScript/TypeScript",
+          level:
+            "50%",
+        },
+        {
+          Icon: BsCircleFill,
+          name: "API Development",
+          level:
+            "80%",
+        },
+        {
+          Icon: BsCircleFill,
+          name: "Competitive Coder",
+          level: "80%",}
+      ];  
+      
+      export const tools:ISkill[] =[
+        {
+            Icon: BsCircleFill,
+            name: "Frontend Development",
+            level:
+              "80%",
+          },
+          {
+            Icon: BsCircleFill,
+            name: "Backend  Development",
+            level:
+              "80%",
+          },
+          {
+            Icon: BsCircleFill,
+            name: "API Development",
+            level:
+              "80%",
+          },
+        ];
+
+        export const projects:IProject[] =[
+          {
+            name: 'Portfolio Site',
+            image_path: '/images/site_pic.png',
+            description: 'This very site ',
+            deployed_url: 'lorem',
+            github_url: '',
+            category: ['react', 'typescript', 'django', 'python'],
+            stack: ['React', 'typescript', 'django', 'python'],
+            },
+            {
+              name: 'Portfolio Site',
+            image_path: '/images/site_pic.png',
+            description: 'This very site ',
+            deployed_url: 'lorem',
+            github_url: '',
+            category: ['react', 'typescript', 'django', 'python'],
+            stack: ['React', 'typescript', 'django', 'python'],
+            },
+            {
+              name: 'Portfolio Site',
+            image_path: '/images/site_pic.png',
+            description: 'This very site ',
+            deployed_url: 'lorem',
+            github_url: '',
+            category: ['react', 'typescript', 'django', 'python', 'tailwindcss'],
+            stack: ['React', 'typescript', 'django', 'python'],
+            },
+            {
+              name: 'Portfolio Site',
+            image_path: '/images/site_pic.png',
+            description: 'This very site ',
+            deployed_url: 'lorem',
+            github_url: '',
+            category: ['bootstrap', 'tailwindcss'],
+            stack: ['React', 'typescript', 'django', 'python'],
+            },
+          ];
